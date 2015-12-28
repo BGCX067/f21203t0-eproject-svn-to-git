@@ -1,0 +1,5 @@
+Thank you test. Your registration has been submitted.
+
+The community administrator has chosen to require validation for all email addresses. Within the next 10 minutes (usually instantly) you'll receive an email with instructions on the next step. Don't worry, it won't take long before you can post!
+
+The email has been sent to test@test.com.

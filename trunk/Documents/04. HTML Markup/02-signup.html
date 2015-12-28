@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign Up Form - Web Photo Share</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jscripts/jquery.min.js"></script>
+</head>
+<body>
+<div id="visitorForm">
+	<div class="formWrapper">
+		<h1 class="siteLogo"><span>Web Photo Share</span></h1>
+		<div class="content box_shadow border_radius signUpForm">
+			<div class="formContainer">
+				<h2>Sign Up Account</h2>
+				<form method="post">
+					<input type="text" name="txtName" placeholder="Your name" required>
+					<input type="text" name="txtUsername" placeholder="Username" required>
+					<input type="password" name="txtPassword" placeholder="Password" required>
+					<input type="email" name="txtEmail" placeholder="Your Email address" required>
+					<div class="clear"></div>
+					<div class="one_half">
+						<input type="radio" name="gender" value="male" id="genderMale" checked><label for="genderMale">Male</label>
+						<input type="radio" name="gender" value="female" id="genderFemale"><label for="genderFemale">Female</label>
+					</div>
+					<div class="one_half last">
+						<label for="yearOfBirth">Year of birth</label>
+						<select name="yearOfBirth" id="yearOfBirth">
+							<option disabled selected>Year</option>
+							<option>1997</option>
+							<option>1996</option>
+							<option>1995</option>
+							<option>1994</option>
+							<option>1993</option>
+							<option>1992</option>
+							<option>1991</option>
+							<option>1990</option>
+							<option>1989</option>
+							<option>1988</option>
+							<option>1987</option>
+							<option>1986</option>
+							<option>1985</option>
+							<option>1984</option>
+							<option>1983</option>
+							<option>1982</option>
+							<option>1981</option>
+							<option>1980</option>
+							<option>1979</option>
+						</select>
+					</div>
+					<div class="clear"></div>
+					<p>By creating an account, I accept Web Photo Share's <a href="" title="">Terms of Service</a> and <a href="" title="">Privacy Policy</a>.</p>
+					<div class="formButtonContainer">
+						<a class="button size_L" href="index.html" title="Cancel">Cancel</a>
+						<input class="blue size_L" type="submit" value="Sign Up">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

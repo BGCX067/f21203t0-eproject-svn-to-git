@@ -1,0 +1,76 @@
+#visitorForm{
+	width:460px;
+	margin:0 auto;
+	padding:0;
+}
+#visitorForm .siteLogo{
+	width:310px;
+	height:50px;
+	margin:30px auto;
+	background:url(../images/logo_M.png) no-repeat;
+}
+#visitorForm .siteLogo span {
+    display: none;
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+#loginForm{
+	margin:0 auto;
+	width:340px;
+}
+.formContainer{
+	padding:30px;
+}
+.formContainer input[type='text'], .formContainer input[type='password'], .formContainer input[type='email']{
+	background:#eeeeee;
+	height:45px;
+	margin-bottom:20px;
+	border-color:#d4d4d4;
+}
+#loginForm input[type='text'], #loginForm input[type='password']{
+	padding-left:45px;
+}
+#loginForm input[type='text']{
+	background:url(../images/loginFormIcon.png) 0 0 no-repeat transparent;
+}
+#loginForm input[type='password']{
+	background:url(../images/loginFormIcon.png) 0 -45px no-repeat transparent;
+}
+.formContainer input[type='radio']{
+	margin-right:10px;
+	float:left;
+	margin-top:8px;
+}
+.formContainer label{
+	line-height:35px;
+	float:left;
+	margin-right:10px;
+}
+.formContainer .one_half{
+	margin-bottom:20px;
+}
+.formContainer .formButtonContainer{
+	margin:0 -30px -30px;
+	text-align:right;
+	padding:30px;
+	background:#f0f0f0;
+	border-top:1px solid #d1d1d1;
+	border-radius:0 0 5px 5px;
+}
+.formContainer .formButtonContainer input{
+	display:inline-block;
+}
+#yearOfBirth{
+	width:110px;
+}
+#loginForm .formLink{
+	float:left;
+	text-align:left;
+}
+#loginForm .formLink a{
+	display:block;
+}
+#changePasswordForm input, #changePasswordForm label{
+	margin-bottom:10px;
+}

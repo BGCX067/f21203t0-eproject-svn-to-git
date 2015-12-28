@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Images Management - Web Photo Share</title>
+<link href="../04. HTML Markup/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../04. HTML Markup/css/960_12_col.css" rel="stylesheet" type="text/css">
+<link href="css/admin.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../04. HTML Markup/jscripts/jquery.min.js"></script>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<section id="header">
+	<div class="container_12">
+		<div class="grid_5" id="logo"><a href="02-admin-Dashboard.html" title="">Admin Dashboard</a></div>
+	</div>
+</section>
+<section id="mainpage">
+	<div class="container_12">
+		<div class="grid_3" id="mainMenu">
+			<h3>NAVIGATOR</h3>
+			<ul>
+				<li><a href="02-admin-Dashboard.html" title="Dashboard">Dashboard</a></li>
+				<li><a href="02-admin-Users.html" title="Users">Users</a></li>
+				<li><a href="02-admin-Collections.html" title="Collections">Collections</a></li>
+				<li class="active"><a href="02-admin-Images.html" title="Images">Images</a></li>
+				<li><a href="02-admin-FAQs.html" title="FAQs">FAQs</a></li>
+				<li><a href="02-admin-Feedback.html" title="Feedback">Feedback</a></li>
+				<li><a href="02-admin-Contact.html" title="Contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="breadcrumb">
+			<ul>
+				<li>Images Management</li>
+			</ul>
+			<a href="01-Login.html" class="buttonLink">Logout</a>
+			<a href="02-admin-Change-Password.html" class="buttonLink">Change Password</a>
+		</div>
+		<!-- BOF MAIN CONTENT -->
+		<div class="grid_9">
+			<div class="pageHeader">
+				<h2 class="main-title">Images</h2>
+				<div class="adminSearch">
+					<form method="post" id="searchImages">
+						<label for="searchKeyword">Search Images</label>
+						<input type="text" name="searchKeyword" id="searchKeyword" placeholder="Enter your search here...">
+						<input type="submit" value="Search">
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- BOF PIN IMAGE -->
+		<div class="grid_3 content border_radius box_shadow pin_box">
+			<div class="pinImage"><a href="02-admin-Images.html" class="action-pin"><img src="example/thumb_2.png" alt=""></a></div>
+			<div class="content_inner pinContent">
+				<p class="pinTitle"><a href="02-admin-Images.html" title="" class="link_text_black">Image Title: Pretty FLower</a></p>
+				<p class="pinDesc last">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			</div>
+			<div class="content_inner pinContent">
+				<ul class="pin_meta">
+					<li class="pin_category"><a class="link_text_black" href="" title=""><span class="icon-category"></span>Category name</a></li>
+					<li class="pin_author"><a class="link_text_black" href="" title=""><span class="icon-user"></span>John Doe</a></li>
+				</ul>
+			</div>
+			<div class="content_inner">
+				<a href="02-admin-Images-Edit.html" title=""><img src="images/btnEdit.png" alt=""></a>
+				<a href="" title=""><img src="images/btnDelete.png" alt=""></a>
+			</div>
+		</div>
+		<!-- EOF PIN IMAGE -->
+		<!-- BOF PIN IMAGE -->
+		<div class="grid_3 content border_radius box_shadow pin_box">
+			<div class="pinImage"><a href="02-admin-Images.html" class="action-pin"><img src="example/thumb_2.png" alt=""></a></div>
+			<div class="content_inner pinContent">
+				<p class="pinTitle"><a href="02-admin-Images.html" title="" class="link_text_black">Image Title: Pretty FLower</a></p>
+				<p class="pinDesc last">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			</div>
+			<div class="content_inner pinContent">
+				<ul class="pin_meta">
+					<li class="pin_category"><a class="link_text_black" href="" title=""><span class="icon-category"></span>Category name</a></li>
+					<li class="pin_author"><a class="link_text_black" href="" title=""><span class="icon-user"></span>John Doe</a></li>
+				</ul>
+			</div>
+			<div class="content_inner">
+				<a href="02-admin-Images-Edit.html" title=""><img src="images/btnEdit.png" alt=""></a>
+				<a href="" title=""><img src="images/btnDelete.png" alt=""></a>
+			</div>
+		</div>
+		<!-- EOF PIN IMAGE -->
+		<!-- BOF PIN IMAGE -->
+		<div class="grid_3 content border_radius box_shadow pin_box">
+			<div class="pinImage"><a href="02-admin-Images.html" class="action-pin"><img src="example/thumb_2.png" alt=""></a></div>
+			<div class="content_inner pinContent">
+				<p class="pinTitle"><a href="02-admin-Images.html" title="" class="link_text_black">Image Title: Pretty FLower</a></p>
+				<p class="pinDesc last">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			</div>
+			<div class="content_inner pinContent">
+				<ul class="pin_meta">
+					<li class="pin_category"><a class="link_text_black" href="" title=""><span class="icon-category"></span>Category name</a></li>
+					<li class="pin_author"><a class="link_text_black" href="" title=""><span class="icon-user"></span>John Doe</a></li>
+				</ul>
+			</div>
+			<div class="content_inner">
+				<a href="02-admin-Images-Edit.html" title=""><img src="images/btnEdit.png" alt=""></a>
+				<a href="" title=""><img src="images/btnDelete.png" alt=""></a>
+			</div>
+		</div>
+		<!-- EOF PIN IMAGE -->
+		<!-- EOF MAIN CONTENT -->
+	</div>
+</section>
+<section id="footer">
+	<div class="container_12">
+		<div class="grid_12">
+			<div id="copyRight">&copy; 2013 Web Photo Share. All Rights Reserved</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Form - Web Photo Share</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jscripts/jquery.min.js"></script>
+<script type="text/javascript">
+function submitForm(){
+    location = '03-user-Homepage.html';
+    return false;
+}
+</script>
+</head>
+<body>
+<div id="visitorForm">
+	<div class="formWrapper">
+		<h1 class="siteLogo"><span>Web Photo Share</span></h1>
+		<div class="content box_shadow border_radius" id="loginForm">
+			<div class="formContainer">
+				<form method="post" onSubmit="return submitForm();">
+					<input type="text" name="txtUsername" placeholder="Username" required>
+					<input type="password" name="txtPassword" placeholder="Password" required>
+					<div class="formButtonContainer">
+						<div class="formLink">
+							<a class="link_text_black" href="02-forgotPassword.html" title="Click here to recover your account">Forgot your password?</a>
+							<a class="link_text_black" href="02-signup.html" title="Sign up now">Sign up now</a>
+						</div>
+						<input class="blue size_L" type="submit" value="Login">
+						<div class="clear"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
